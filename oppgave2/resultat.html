@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Resultat</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+		<script src="jquery-1.9.1.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="container">
+			<h1>Ditt daglige kaloribehov er </h1>
+			<span id="sResul"></span>
+		</div>
+		
+		
+		
+		<script>
+			var cookie = document.cookie.split('=');
+			var objekt = JSON.parse(cookie[1]);
+								
+			$("#sResul").html("<h2>" + objekt.resultat.toFixed(2) + " kcal</h2>");
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,91 @@
+body{
+	margin:0;
+	padding:0;
+}
+#container{
+	width: 350px;
+	height: 200px;
+	margin:0 auto;
+	background:#2f3758;
+}
+header{
+	height:50px;
+	background:#1f2439;
+	text-align: center;
+	box-shadow: 1px 2px 5px #000;
+}
+header h1{
+	color: #e5ca13;
+	font-size: 20px;
+}
+#secPosisjon{
+	padding-top:50px;
+	width:310px;
+	margin:0 auto;
+}
+#secData{
+	display:none;
+	background:#2f3758;
+	width: 350px;
+	height: 400px;
+}
+#gpsIcon{
+	width:20px;
+	float:left;
+	padding-right:10px;
+}
+#topText{
+	text-align: center;
+	padding-top:250px;
+}
+#btnFinn{
+	float:right;
+}
+.pac-container{
+	color:#000;
+}
+.hide{
+	display: none;
+}
+.boks{
+	color: #000;
+	min-height: 75px;
+	border-bottom: 1px solid #000;
+}
+.boks img{
+	width:50px;
+	position: absolute;
+	left: 30px;
+	top: 8px;
+}
+.gymName{
+	margin-top:40px;
+	text-align: center;
+	font-size: 25px;
+	color:#e5ca13;
+}
+#hReiserute{
+	color:#e5ca13;
+	font-size: 15px;
+	text-align: center;	
+}
+.textTop{
+	position: absolute;
+	left:110px;
+	top:12px;
+	color:#e5ca13;
+}
+.textBottom{
+	position: absolute;
+	left:110px;
+	top:30px;
+	color:#fff;	
+	
+}
+#steps div{
+	position: relative;
+	padding: 5px;
+}
+#steps div:last-child{
+	border:none;
+}

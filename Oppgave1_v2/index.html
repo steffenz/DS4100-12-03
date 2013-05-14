@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript lokasjon</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?location=59.912353,10.746689&radius=10&sensor=true&libraries=geometry,places"></script>
+		
+	</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Finn nærmeste fitness.Xpress</h1>
+		</header>
+		<section id="secPosisjon">
+			<a href="#" id="gpsKnapp"><img src="gps.png" id="gpsIcon" alt="Finn posisjon"/></a>
+			<label>
+				<input type="text" id="txtFra" placeholder="Hvor er du?">
+				<input type="button" class="btn" id="btnFinn" value="Finn">
+			</label>
+		</section>
+		<section id="secData">
+			<h2 class="gymName" id="hGym"></h2>
+			<h3 id="hReiserute" class="hide"></h3>
+			<div id="steps"></div>
+		</section>
+	</div>
+	<!--Scripts-->
+	<script src="script.js"></script>
+</body>
+</html>

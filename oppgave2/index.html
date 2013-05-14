@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kaloribehovskalkulator</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+	</head>
+	<body>
+		<div id="container">
+			<section id="secVerdier">
+				<h1 class="header">Kaloribehovskalkulator</h1>
+				<p>Denne applikasjonen regner ut hvor mange kalorier du trenger hver dag. <br/>Vennligst fyll ut verdiene nedenfor</p>
+				<table class="textSize">
+					<tr>
+						<td>Kjønn</td>
+						<td>
+							<select id="selKjonn">
+								<option value="0">Mann</option>
+								<option value="1">Kvinne</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Alder</td>
+						<td><input id="txtAlder" type="text"></td>
+					</tr>
+					<tr>
+						<td>Vekt (kg)</td>
+						<td><input type="text" id="txtVekt"></td>
+					</tr>
+					<tr>
+						<td>Høyde (cm)</td>
+						<td><input type="text" id="txtHoyde"></td>
+					</tr>
+					<tr>
+						<td co>Aktivitetsnivå</td>
+						<td>
+							<select id="selAktivitet">
+							</select>
+						</td>
+					</tr>
+				</table>
+				<input type="button" class="btn" value="Finn ut" id="btnFinn">
+			</section>
+		</div>
+		<script src="jquery-1.9.1.min.js" type="text/javascript"></script>
+		<script src="script.js" type="text/javascript"></script>
+		
+	</body>
+</html>

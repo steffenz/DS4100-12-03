@@ -1,0 +1,21 @@
+body{
+	background:url('bilder/back2.png') repeat;
+}
+
+#container{
+	width:960px;
+	margin:0 auto;
+}
+.textSize{
+	font-size: 18px;
+	width:480px;
+	table-layout: fixed;
+}
+.header{
+	font-size:42px;
+}
+#secVerdier{
+	width:470px;
+	margin: 0 auto;
+	
+}

@@ -1,0 +1,7 @@
+{"aktivitetsnivaa":[
+	{"trening":"Liten til ingen trening", "verdi":"1.2"},
+	{"trening":"Lett trening", "verdi":"1.375"},
+	{"trening":"Moderat trening", "verdi":"1.55"},
+	{"trening":"Tung trening", "verdi":"1.725"},
+	{"trening":"Veldig tung trening (to ganger per dag, høyintensiv trening)", "verdi":"1.9"}
+]}
